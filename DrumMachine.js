@@ -30,7 +30,7 @@ class DrumMachine {
   }
 
   noteInterval() {
-    return 30000 / this.bpm;
+    return 60000 / this.bpm;
   }
 
   trackArray() {
